@@ -7,11 +7,11 @@
 //BINARY SEARCH
 const findSmallestInRotatedSortedArray = (numbers, target) =>{
 
-    let left = 0
+    let left = 0    
     let right = numbers.length-1
     let ans = 1000
 
-    while(left<=right){
+    while(left<=right){  
         const mid = Math.floor((left+right)/2)
 
         //Left Sort

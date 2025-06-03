@@ -29,6 +29,16 @@
 
 // lEFT SHIFT:
 //   it also cuts the first number from left 
-     13<<1
+    //  13<<1
 
-    formula: 13 * Math.pow(2,1) => 26
+    // formula: 13 * Math.pow(2,1) => 26
+
+
+// NOT OPERATOR:
+
+//  X = ~5
+
+//  1. flip  like (~ opearator)
+//  2. Check if it is negative saves 2's compliement(add 1) or else stop
+
+// Note :  if it has start 1 it is negative or if it has 0 is  +ve /

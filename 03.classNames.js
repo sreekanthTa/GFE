@@ -26,7 +26,6 @@
   
 const result =  classNames('a', ['b', { c: true, d: false }]); // 'a b c'
 
-
 console.log(result)
 
 

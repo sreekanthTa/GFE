@@ -42,7 +42,7 @@ export default function longestCommonSubsequence(str1, str2) {
   
     // Initialize a 2D array with -1 (uncomputed)
     const memo = Array.from({ length: m + 1 }, () => Array(n + 1).fill(0));
-    // console.log(memo);
+    console.log(memo);
   
     for (let i = 1; i <= m; i++) {
       for (let j = 1; j <= n; j++) {

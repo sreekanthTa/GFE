@@ -30,8 +30,6 @@ const obj = {
   
   const curriedAdd = curry(obj.add);
   
-  // Must bind to preserve `this`
-//   const boundAdd = curriedAdd.bind(obj);
   
   console.log(curriedAdd(1)(2)); // 13
   
