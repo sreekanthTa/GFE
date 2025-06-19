@@ -2,6 +2,7 @@
 // Output: 2
 // Explanation: The original array [0,1,2,3,4] was rotated 0 times and 2 is present at 2nd index in given array
 
+
 // Note: We can do for loop which is  O(N)
 
 //BINARY SEARCH
