@@ -19,6 +19,7 @@ export default function jsonStringify(value) {
       })
       return `{${pairs.join(',')}}`;
     }
+
   
     return ''
   }
