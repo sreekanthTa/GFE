@@ -17,3 +17,9 @@ var findWordsContaining = function(words, x) {
 
     return arr
 };
+
+// Example 1:
+
+// Input: words = ["leet","code"], x = "e"
+// Output: [0,1]
+// Explanation: "e" occurs in both words: "leet", and "code". Hence, we return indices 0 and 1.

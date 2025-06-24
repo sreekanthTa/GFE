@@ -20,6 +20,7 @@ var lengthOfLastWord = function(s) {
     return counter
 };
 
+console.log
 
 // Example 1:
 
