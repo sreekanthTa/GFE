@@ -23,5 +23,6 @@ class Solution {
 
 // Input: s ="GeeksforGeeks"
 // Output:  skeeGrofskee
+
 // Input: s ="Geek"
 // Output: keeG
