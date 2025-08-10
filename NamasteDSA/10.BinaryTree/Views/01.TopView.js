@@ -31,7 +31,7 @@ class Solution {
                 map[line] = node.data;
             }
             
-            if(node.left) queue.push([node.left, line-1])
+            if(node.left)  queue.push([node.left, line-1])
             if(node.right) queue.push([node.right, line+1])
             
             maxLine = Math.max(maxLine, line)
