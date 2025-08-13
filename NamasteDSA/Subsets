@@ -1,1 +1,23 @@
 
+function subsets(nums) {
+    let result = [];
+
+    function backtrack(start, current) {
+        // Push a copy of current subset
+        result.push([...current]);
+
+        for (let i = start; i < nums.length; i++) {
+            // Include nums[i]
+            current.push(nums[i]);
+            // Recurse with next index
+            backtrack(i + 1, current);
+            // Backtrack (remove last element)
+            current.pop();
+        }
+    }
+
+    backtrack(0, []);
+    return result;
+}
+
+console.log(subsets([1, 2, 3]));
