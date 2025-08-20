@@ -55,18 +55,6 @@ GFE/
 ├── tests/          # Automated tests
 ├── package.json    # Project metadata and scripts
 └── README.md       # Project documentation
-```
-
----
-
-## 📝 Documentation
-
-You’ll find detailed guides in the [`docs/`](docs/) folder and code comments throughout the source. Topics include:
-
-- Getting started with GFE
-- Extending with your own modules
-- Testing and deployment
-- Troubleshooting common issues
 
 ---
 
