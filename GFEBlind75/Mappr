@@ -1,0 +1,16 @@
+// Adding our custom map to Array prototype
+Array.prototype.myMap = function(callback, thisArg) {
+  // `this` refers to the array calling myMap
+  if (typeof callback !== "function") {
+    throw new TypeError(callback + " is not a function");
+  }
+
+  const result = [];
+  for (let i = 0; i < this.length; i++) {
+    // Make sure to skip empty slots in sparse arrays
+    if (i in this) {
+      result[i] = callback.call(thisArg, this[i], i, this);
+    }
+  }
+  return result;
+};
