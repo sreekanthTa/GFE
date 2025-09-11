@@ -20,7 +20,7 @@ var reverseStr = function(s, k) {
 
     }
 
-    return arr.join('')
+        return arr.join('')
 };
 
 
