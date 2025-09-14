@@ -21,7 +21,8 @@ var singleNonDuplicate = function(nums) {
             return nums[mid]
         }else if(
             (mid%2 ==1 && nums[mid-1] == nums[mid])
-        ||  (mid%2 ==0 && nums[mid+1] == nums[mid])
+            ||  
+            (mid%2 ==0 && nums[mid+1] == nums[mid])
             ){
                 left = mid+1
             }else{

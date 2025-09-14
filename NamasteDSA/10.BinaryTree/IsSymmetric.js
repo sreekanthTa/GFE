@@ -10,7 +10,7 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
-var isSymmetric = function(root) {
+var isSymmetric_ = function(root) {
 
     let leftNode = root.left
     let rightNode = root.right

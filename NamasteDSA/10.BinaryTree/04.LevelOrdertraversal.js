@@ -13,7 +13,6 @@ var levelOrder = function(root) {
         for (let i = 0; i < length; i++) {
             const element = queue.shift();
             temp.push(element.val);
-
             if (element.left) queue.push(element.left);
             if (element.right) queue.push(element.right);
         }
