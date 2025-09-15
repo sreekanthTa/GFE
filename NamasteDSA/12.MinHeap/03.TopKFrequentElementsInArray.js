@@ -38,3 +38,34 @@ var topKFrequent = function(nums, k) {
 
 // Input: nums = [1,1,1,2,2,3], k = 2
 // Output: [1,2]
+
+
+
+
+const topKfrequentElements = (arr, k) => {
+    const obj = {}
+    for(let i = 0 ; i < arr.length; i++){
+        obj[arr[i]] = (obj[arr[i]] || 0) + 1
+     }
+     
+     const buckets  = Array.from({length: arr.length +1}, () => [])
+      for(const  key in obj){
+          const freq =  obj[key]
+           buckets[freq].push(Number(key))
+     }
+     
+     console.log(buckets)
+     const result = []
+     
+     for(let i=  buckets.length -1 ; i>=0 && result.length< k; i--){
+         for (const num of buckets[i]){
+             result.push(num)
+             if(result.length == k) break
+         }
+         
+     }
+     return result
+}
+
+nums = [1,1,1,2,2,3], k = 2
+console.log(topKfrequentElements(nums,k))
