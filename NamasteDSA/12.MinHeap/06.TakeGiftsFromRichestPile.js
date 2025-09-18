@@ -88,9 +88,9 @@ var pickGifts = function(gifts, k) {
 
  
     for(let i = 0; i < k;i++){
-       const maxGift = maxHeap.delete()
-const updatedGift = Math.floor(Math.sqrt(maxGift));
-maxHeap.insert(updatedGift)
+        const maxGift = maxHeap.delete()
+        const updatedGift = Math.floor(Math.sqrt(maxGift));
+        maxHeap.insert(updatedGift)
     }
 
         return maxHeap.heap.reduce((sum, val) => sum + val, 0);
