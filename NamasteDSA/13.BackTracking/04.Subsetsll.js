@@ -10,7 +10,7 @@ var subsetsWithDup = function(nums) {
 
     const backTrack = (index, subset) => {
         
-        if(index == nums.length&& !result.includes(subset)){
+        if(index == nums.length){
             result.push([...subset])
             return
         }
