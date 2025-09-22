@@ -1,0 +1,7 @@
+1) Try to Represent any problem in terms of INDEX
+2) Do all possible stuffs on that index according to the problem statement 
+3) Sum of all stuffs -> Count all ways
+   min(of all sums)  -> find min 
+   max(of all sumns) -> find max 
+
+Then we can do memoizatoin and bottom-up

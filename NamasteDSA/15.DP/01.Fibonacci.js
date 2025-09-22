@@ -32,3 +32,5 @@ const fibonacci = (num) => {
 }
 
 console.log("fibonnaci series", fibonacci(10))
+
+
