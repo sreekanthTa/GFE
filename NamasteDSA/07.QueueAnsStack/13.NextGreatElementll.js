@@ -21,6 +21,7 @@ var nextGreaterElements = function(nums) {
 };
 
 
+
 // Input: nums = [1,2,1]
 // Output: [2,-1,2]
 // Explanation: The first 1's next greater number is 2; 
