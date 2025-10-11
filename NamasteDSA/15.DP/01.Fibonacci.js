@@ -16,8 +16,7 @@ const obj = {}
 
 const fibonacci = (num) => {
      
-    let dp  = new Array(num + 1)
-    
+     
    previous1 = 1
    previous2 = 0
    current = 0
